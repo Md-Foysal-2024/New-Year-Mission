@@ -19,6 +19,10 @@ body {
 
 }
 
+.btn-primary:hover {
+    background-color: #960101;
+}
+
 
 .banner-container {
     color: #f1f0f0;
@@ -139,13 +143,44 @@ body {
     font-size: 64px;
     font-weight: 800;
 }
-.welcome-description{
+
+.welcome-description {
     padding-bottom: 20px;
-   font-size: 16px; 
-   font-weight: 400;
+    font-size: 16px;
+    font-weight: 400;
 }
 
 
+.hotel-section {
+    width: 1440px;
+    height: 500px;
+    background-color: rgb(255, 217, 217);
+    border-radius: 20px;
+    margin: 100px auto;
+    padding-top : 120px ;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+}
+
+.hotel-text {
+    align-items: center;
+    justify-content: center;
+    /* padding: 100px auto; */
+    margin-bottom: 25px;
+}
+
+.hotel-title {
+    padding: 100px auto;
+    font-size: 32px;
+    font-weight: 600;
+    margin: 0%;
+    padding: 10px;
+}
+
+span {
+    color: #ff0303;
+}
 
 
 
