@@ -2,7 +2,22 @@ body {
     font-family: 'Open Sans', sans-serif;
 }
 
+.text-primary {
+    color: #fa0202;
+}
 
+.btn-primary {
+    border-radius: 5px;
+    background-color: #fa0202;
+    border: none;
+    padding: 18px 35px;
+    color: #ffffff;
+    font-size: 20px;
+    font-weight: 700;
+    line-height: normal;
+    cursor: pointer;
+
+}
 
 
 .banner-container {
@@ -86,4 +101,73 @@ body {
     width: 800px;
     height: 500px;
 
+}
+
+
+
+
+
+
+.welcome-section {
+    color: #f1f0f0;
+    width: 1440px;
+    height: 600px;
+    display: flex;
+    margin: 150px auto;
+    border-radius: 20px;
+    background-image: linear-gradient(to left, rgba(255, 0, 0, 0), rgb(0, 0, 0)), url(../images/Vectorrr.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    justify-content: space-between;
+    align-items: center;
+
+}
+
+.welcome-img {
+    padding: 120px;
+    width: 320px;
+    height: 450px;
+    /* margin-bottom: 20px; */
+}
+
+.welcome-text {
+    padding: 120px 120px;
+}
+
+.welcome-title {
+    font-size: 64px;
+    font-weight: 800;
+}
+.welcome-description{
+    padding-bottom: 20px;
+   font-size: 16px; 
+   font-weight: 400;
+}
+
+
+
+
+
+
+
+.llll {
+    margin: 150px auto;
+    background-image: url(../images/Rectangle\ 2.png);
+    background-repeat: no-repeat;
+
+}
+
+.image {
+    width: 400px;
+    height: 400px;
+    /* align-items: center; */
+    /* justify-content: center; */
+    /* text-align: center; */
+    border-radius: 100%;
+    border: 10px solid #ff0000;
+}
+
+.pic {
+    padding: 20px;
 }
