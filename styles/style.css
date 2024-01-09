@@ -284,14 +284,15 @@ span {
 .portfolio-card-section img {
     width: 424px;
     height: 450px;
-    padding: 20px;
-
+    /* padding: 20px; */
+    margin: 24px 0px;
+    border-radius: 20px;
 }
 
 
-.portfolio-card-section img:hover{
-transform: scale(1.05);
-box-shadow: 1px 1px 20px  rgb(54, 54, 54);
+.portfolio-card-section img:hover {
+    transform: scale(1.05);
+    box-shadow: 1px 1px 20px rgb(54, 54, 54);
 }
 
 
