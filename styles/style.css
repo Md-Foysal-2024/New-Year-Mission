@@ -367,6 +367,9 @@ span {
 }
 
 .footer-description {
+    margin: auto;
+    width: 1440px;
+
     padding: 60px 140px;
     display: flex;
     justify-content: space-between;
@@ -387,8 +390,8 @@ span {
 
 
 hr {
-    margin: 0px 140px;
-    background-color: #960101;
+    margin: 0px 320px;
+    border: 1px solid rgb(37, 46, 77);
 }
 
 .footer-icons {
@@ -400,6 +403,6 @@ hr {
 .footer-icons img {
     width: 64px;
     height: 64px;
-    padding: 20px;
+    padding: 24px;
 
 }
