@@ -154,7 +154,8 @@ body {
 .hotel-section {
     width: 1440px;
     height: 500px;
-    background-color: rgb(255, 217, 217);
+    /* background-color: rgb(255, 217, 217); */
+    background-image: linear-gradient(to top, rgba(255, 0, 0, 0), rgb(252, 210, 210));
     border-radius: 20px;
     margin: 100px auto;
     padding-top: 120px;
@@ -173,7 +174,7 @@ body {
 .hotel-title {
     padding: 100px auto;
     font-size: 32px;
-    font-weight: 600;
+    font-weight: 700;
     margin: 0%;
     padding: 10px;
 }
@@ -181,6 +182,143 @@ body {
 span {
     color: #ff0303;
 }
+
+
+.best-offer-section {
+    width: 1440px;
+    margin:100px auto;
+    display: flex;
+    gap: 60px;
+    justify-content: space-around;
+    align-items: center;
+    text-align: left;
+}
+
+.best-offer-image {
+    padding: 20px;
+    border-radius: 100%;
+    border: 10px solid #ff0808;
+}
+
+.best-offer-year {
+    color: #F00;
+    font-size: 48px;
+    font-weight: 700;
+    margin-bottom: 0%;
+
+    padding-top:60px;
+}
+.best-offer-title-two{
+    color: #F00;
+    font-size: 24px;
+    font-weight: 500;
+    margin-bottom: 0%;
+}
+.best-offer-title-one{
+    color: rgb(0, 0, 0);
+    font-size: 48px;
+    font-weight: 900;
+    margin-top: 0%;
+    margin-bottom: 0%;
+}
+
+
+.best-offer-description{
+    color: rgba(7, 2, 17, 0.60);
+    font-size: 20px;
+    font-weight: 400;   
+}
+
+.best-offer-image2{
+    padding-top: 20px;
+    width: 140px;
+    height: 140px;
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
