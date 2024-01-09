@@ -316,24 +316,24 @@ span {
 }
 
 .subscribe-input-field {
-   
+
     display: flex;
     width: 600px;
     margin: 50px auto;
     align-items: center;
     text-align: center;
-  
+
 
 }
 
 .subscribe-section input {
     font-size: 20px;
     width: 500px;
-    padding:20px;
+    padding: 20px;
     border-top-left-radius: 35px;
     border-bottom-left-radius: 35px;
     border: none;
-    text-align:left;
+    text-align: left;
     margin-right: 0;
 }
 
@@ -349,7 +349,7 @@ span {
     font-size: 48px;
     font-weight: 900;
 
-   
+
 
 }
 
@@ -363,106 +363,48 @@ span {
     padding-top: 0%;
 }
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-.llll {
-    margin: 150px auto;
-    background-image: url(../images/Rectangle\ 2.png);
-    background-repeat: no-repeat;
-
+.footer-section {
+    color: #ffffff;
+    font-size: 24px;
+    width: 100%;
+    background-color: #070211;
+    ;
 }
 
-.image {
-    width: 400px;
-    height: 400px;
-    /* align-items: center; */
-    /* justify-content: center; */
-    /* text-align: center; */
-    border-radius: 100%;
-    border: 10px solid #ff0000;
+.footer-description {
+    padding: 60px 140px;
+    display: flex;
+    justify-content: space-between;
 }
 
-.pic {
+.information {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    text-align: left;
+    justify-content: center;
+}
+
+.icons {
+    padding-top: 10px;
+}
+
+
+
+hr {
+    margin: 0px 140px;
+    background-color: #960101;
+}
+
+.footer-icons {
+    text-align: center;
     padding: 20px;
+    justify-content: center;
+}
+
+.footer-icons img {
+    width: 64px;
+    height: 64px;
+    padding: 20px;
+
 }
