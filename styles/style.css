@@ -12,7 +12,7 @@ body {
     border: none;
     padding: 18px 35px;
     color: #ffffff;
-    font-size: 20px;
+    font-size: 24px;
     font-weight: 700;
     line-height: normal;
     cursor: pointer;
@@ -178,8 +178,9 @@ body {
     margin: 0%;
     padding: 10px;
 }
-.btn-hotel{
-    margin-top: 20px ;
+
+.btn-hotel {
+    margin-top: 20px;
     /* padding-top: 100px; */
 }
 
@@ -190,7 +191,7 @@ span {
 
 .best-offer-section {
     width: 1440px;
-    margin:100px auto;
+    margin: 100px auto;
     display: flex;
     gap: 60px;
     justify-content: space-around;
@@ -210,15 +211,17 @@ span {
     font-weight: 700;
     margin-bottom: 0%;
 
-    padding-top:60px;
+    padding-top: 60px;
 }
-.best-offer-title-two{
+
+.best-offer-title-two {
     color: #F00;
     font-size: 24px;
     font-weight: 500;
     margin-bottom: 0%;
 }
-.best-offer-title-one{
+
+.best-offer-title-one {
     color: rgb(0, 0, 0);
     font-size: 48px;
     font-weight: 900;
@@ -227,23 +230,138 @@ span {
 }
 
 
-.best-offer-description{
+.best-offer-description {
     color: rgba(7, 2, 17, 0.60);
     font-size: 20px;
-    font-weight: 400;   
+    font-weight: 400;
 }
 
-.best-offer-image2{
+.best-offer-image2 {
     padding-top: 20px;
     width: 140px;
     height: 140px;
 
 }
 
+/* portfolio-section */
+.portfolio-section {
+    width: 1440px;
+    margin: 140px auto;
+}
 
 
+.portfolio-card-section {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    text-align: center;
+}
+
+.portfolio-text-section {
+    padding-left: 20px;
+
+}
+
+.portfolio-text-section h3 {
+    color: #F00;
+    font-size: 24px;
+    font-weight: 500;
+    margin: 0%;
+    padding: 0%;
+}
+
+.portfolio-text-section h1 {
+    color: #070211;
+    font-size: 48px;
+    font-weight: 900;
+    margin: 0%;
+    padding: 0%;
+}
+
+.portfolio-text-section p {
+    color: rgba(7, 2, 17, 0.60);
+    font-size: 20px;
+    font-weight: 400;
+
+}
+
+.portfolio-card-section img {
+    width: 424px;
+    height: 450px;
+    padding: 20px;
+
+}
 
 
+/* .portfolio-card-section img:hover{ */
+/* background-image: linear-gradient(to top, rgba(255, 0, 0, 0), rgb(0, 0, 0));
+    width: 460px;
+    height: 480px;
+    box-shadow: 2px 2px 2px  ;
+} */
+
+
+.subscribe-section {
+    width: 1440px;
+    height: 500px;
+    background-image: linear-gradient(to bottom, rgba(255, 0, 0, 0), rgb(252, 210, 210));
+    border-radius: 20px;
+    margin: 100px auto;
+    padding: 80px 0px;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+
+
+}
+
+.subscribe-input-field {
+   
+    display: flex;
+    width: 600px;
+    margin: 50px auto;
+    align-items: center;
+    text-align: center;
+  
+
+}
+
+.subscribe-section input {
+    font-size: 20px;
+    width: 500px;
+    padding:20px;
+    border-top-left-radius: 35px;
+    border-bottom-left-radius: 35px;
+    border: none;
+    text-align:left;
+    margin-right: 0;
+}
+
+.subscribe-btn {
+    margin-left: 0;
+    border-top-right-radius: 35px;
+    border-bottom-right-radius: 35px;
+}
+
+.subscribe-title {
+    color: #070211;
+    text-align: center;
+    font-size: 48px;
+    font-weight: 900;
+
+   
+
+}
+
+.subscribe-description {
+
+    color: rgba(7, 2, 17, 0.60);
+    text-align: center;
+    font-size: 20px;
+    font-weight: 400;
+    margin-top: 0%;
+    padding-top: 0%;
+}
 
 
 
